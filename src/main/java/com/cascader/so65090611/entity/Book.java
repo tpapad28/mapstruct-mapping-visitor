@@ -1,7 +1,6 @@
 
 package com.cascader.so65090611.entity;
 
-import com.cascader.so65090611.MappableEntity;
 import com.cascader.so65090611.dto.ProductDto;
 import com.cascader.so65090611.EntityMapper;
 
@@ -9,7 +8,7 @@ import com.cascader.so65090611.EntityMapper;
  *
  * @author tpapad
  */
-public class Book extends Product implements MappableEntity {
+public class Book extends Product {
 
     private String author;
 
